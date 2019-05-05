@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary">
+
+    <EditText
+        android:id="@+id/txtname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Item Name"
+        android:textSize="20sp"
+        android:layout_margin="20dp">
+        <requestFocus />
+    </EditText>
+    <EditText
+        android:id="@+id/txtprice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Item Price"
+        android:textSize="20sp"
+        android:layout_margin="20dp"/>
+    <EditText
+        android:id="@+id/txtimage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Image Name"
+        android:textSize="20sp"
+        android:layout_margin="20dp"/>
+    <EditText
+        android:id="@+id/txtdesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Item Description"
+        android:textSize="20sp"
+        android:gravity="start"
+        android:layout_weight="1"
+        android:layout_margin="20dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnsave"
+        android:text="Add Item"/>
+</LinearLayout>
