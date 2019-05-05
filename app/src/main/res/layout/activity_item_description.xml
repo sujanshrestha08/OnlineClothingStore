@@ -2,6 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:background="#636363"
     android:layout_margin="20dp">
 
     <de.hdodenhof.circleimageview.CircleImageView
@@ -20,7 +21,9 @@
         android:layout_toEndOf="@+id/imgProfile"
         android:hint="Name"
         android:textSize="20sp"
-        android:layout_toRightOf="@+id/imgProfile" />
+        android:layout_toRightOf="@+id/imgProfile"
+        android:textColor="#ffff"
+        />
 
     <TextView
         android:id="@+id/tvPrice"
@@ -33,7 +36,10 @@
         android:hint="Price"
         android:textSize="20sp"
         android:layout_marginLeft="20dp"
-        android:layout_toRightOf="@+id/imgProfile" />
+        android:layout_toRightOf="@+id/imgProfile"
+        android:textColor="#ffff"
+        />
+
     <TextView
         android:id="@+id/tvDesc"
         android:layout_width="wrap_content"
@@ -45,9 +51,9 @@
         android:hint="Description"
         android:textSize="20sp"
         android:layout_marginLeft="20dp"
-        android:layout_toRightOf="@+id/imgProfile" />
-
-
+        android:layout_toRightOf="@+id/imgProfile"
+        android:textColor="#ffff"
+        />
 
 
 </RelativeLayout>

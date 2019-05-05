@@ -63,7 +63,7 @@ public class SignupFragment extends Fragment implements View.OnClickListener  {
         editor.putString("password",txtpassword.getText().toString());
         editor.commit();
 
-        Toast.makeText(getActivity(),"Successfull ",Toast.LENGTH_SHORT).show();
+        Toast.makeText(getActivity(),"Successfully Registered ",Toast.LENGTH_SHORT).show();
     }
     private boolean validate(){
         boolean checkvalidate=true;
@@ -97,8 +97,8 @@ public class SignupFragment extends Fragment implements View.OnClickListener  {
         if(pwd.equals(repwd)){
             checkvalidate=true;
         }else{
-            txtpassword.setError("Invalid Match");
-            txtrepassword.setError("Invalid Match");
+            txtpassword.setError("Password does not Match");
+            txtrepassword.setError("Password does not Match");
             txtpassword.requestFocus();
             checkvalidate=false;
         }

@@ -44,7 +44,7 @@ public class ItemAddActivity extends AppCompatActivity {
             printStream.println(txtname.getText().toString()+"->"+txtprice.getText().toString()+"->"+txtimage.getText().toString()+"->"+txtdesc.getText().toString());
             printStream.flush();
             printStream.close();
-            Toast.makeText(this,"saved to "+getFilesDir(),Toast.LENGTH_LONG).show();
+            Toast.makeText(this,"Saved to "+getFilesDir(),Toast.LENGTH_LONG).show();
 Intent intent=new Intent(ItemAddActivity.this,DashboardActivity.class);
             startActivity(intent);
         }catch (IOException e){

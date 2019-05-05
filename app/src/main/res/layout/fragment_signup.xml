@@ -6,14 +6,20 @@
     android:layout_height="600dp"
     android:orientation="vertical"
     tools:context="fragment.SignupFragment"
-    android:background="@color/colorPrimary">
+    android:background="#D69764">
+
     <EditText
         android:id="@+id/txtfname"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="First Name"
-        android:layout_margin="10dp">
+        android:textAlignment="center"
+        android:layout_margin="20dp"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        >
         <requestFocus />
+
     </EditText>
 
 
@@ -23,33 +29,55 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Last Name"
-        android:layout_margin="10dp"/>
+        android:layout_margin="20dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        />
+
     <EditText
         android:id="@+id/txtusername"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="UserName"
-        android:layout_margin="10dp"/>
+        android:layout_margin="20dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        />
+
     <EditText
         android:id="@+id/txtpassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPassword"
         android:hint="Password"
-        android:layout_margin="10dp"/>
+        android:layout_margin="20dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        />
+
     <EditText
         android:id="@+id/txtrepassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPassword"
         android:hint="Re enter Password"
-        android:layout_margin="10dp"/>
+        android:layout_margin="20dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        />
+
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/btnregister"
         android:text="Register"
-        android:layout_margin="10dp"/>
+        android:layout_margin="30dp"
+        android:textAlignment="center"
+        />
 
 
 

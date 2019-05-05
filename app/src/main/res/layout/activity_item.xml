@@ -3,43 +3,65 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/colorPrimary">
+    android:background="#AEE0C5">
 
     <EditText
         android:id="@+id/txtname"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Item Name"
-        android:textSize="20sp"
-        android:layout_margin="20dp">
+        android:hint="Product Name"
+        android:textSize="25sp"
+        android:layout_margin="30dp"
+        android:textAlignment="center"
+        android:background="#EAD5E1"
+        >
         <requestFocus />
+
     </EditText>
+
     <EditText
         android:id="@+id/txtprice"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Item Price"
+        android:hint="Product Price"
         android:textSize="20sp"
-        android:layout_margin="20dp"/>
+        android:layout_margin="30dp"
+        android:textAlignment="center"
+        android:background="#EAD5E1"
+        />
+
     <EditText
         android:id="@+id/txtimage"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Image Name"
+        android:hint="Product Image Name"
         android:textSize="20sp"
-        android:layout_margin="20dp"/>
+        android:layout_margin="30dp"
+        android:textAlignment="center"
+        android:background="#EAD5E1"
+        />
+
     <EditText
         android:id="@+id/txtdesc"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Item Description"
-        android:textSize="20sp"
+        android:hint="Product Description"
+        android:textSize="25sp"
         android:gravity="start"
         android:layout_weight="1"
-        android:layout_margin="20dp"/>
+        android:layout_margin="30dp"
+        android:textAlignment="center"
+        android:background="#EAD5E1"
+        />
+
     <Button
+        android:id="@+id/btnsave"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btnsave"
-        android:text="Add Item"/>
+        android:layout_margin="50dp"
+        android:background="#74B3E6"
+        android:textSize="20sp"
+        android:text="Add"
+        android:textColor="#ffffff"
+        />
 </LinearLayout>

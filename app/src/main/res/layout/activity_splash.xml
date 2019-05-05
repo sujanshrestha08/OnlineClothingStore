@@ -7,19 +7,21 @@
     android:gravity="center"
     android:orientation="vertical"
     tools:context=".SplashActivity"
-    android:background="@color/colorPrimary">
+    android:background="#5767FF">
+
     <ImageView
-        android:layout_width="140dp"
-        android:layout_height="140dp"
         android:id="@+id/logo"
+        android:layout_width="333dp"
+        android:layout_height="329dp"
         android:layout_gravity="center"
-        android:src="@drawable/logo"/>
+        android:src="@drawable/logo" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="12dp"
-        android:text="Your Online Clothing Store"
+        android:text="Online Clothing Store"
+        android:textColor="#fff"
         android:textSize="28sp"/>
 
 </LinearLayout>

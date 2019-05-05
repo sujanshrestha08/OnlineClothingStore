@@ -47,9 +47,6 @@ public class DashboardActivity extends AppCompatActivity {
             String line="";
             while ((line=br.readLine())!=null){
                 String[] parts=line.split("->");
-
-
-
                 int image= getResources().getIdentifier(parts[2],"drawable",getPackageName());
                 clothlist.add(new Cloth(parts[0],parts[1],image,parts[3]));
 }

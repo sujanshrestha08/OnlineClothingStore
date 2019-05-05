@@ -71,13 +71,13 @@ public class LoginFragment extends Fragment implements View.OnClickListener {
         String Password=sharedPreferences.getString("password","");
         if(Username.equals(txtusername.getText().toString()) && Password.equals(txtpassword.getText().toString())){
 
-            Toast.makeText(getActivity(),"Successfull ",Toast.LENGTH_SHORT).show();
+            Toast.makeText(getActivity(),"Successful ",Toast.LENGTH_SHORT).show();
             Intent intent=new Intent(getActivity(), DashboardActivity.class);
             startActivity(intent);
 
         }
         else{
-            Toast.makeText(getActivity(),"Either Username or Password is Incorrect ",Toast.LENGTH_SHORT).show();
+            Toast.makeText(getActivity(),"Username OR Password is Incorrect ",Toast.LENGTH_SHORT).show();
         }
 
     }

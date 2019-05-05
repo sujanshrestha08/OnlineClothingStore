@@ -6,7 +6,7 @@
     android:layout_height="600dp"
     android:orientation="vertical"
     tools:context="fragment.LoginFragment"
-    android:background="@color/colorPrimary"
+    android:background="#646363"
 
     >
 
@@ -15,29 +15,42 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="UserName"
-        android:layout_margin="10dp">
+        android:layout_margin="30dp"
+        android:textSize="22dp"
+        android:textColor="#ffff"
+        android:textAlignment="center"
+        >
         <requestFocus />
+
     </EditText>
+
     <EditText
         android:id="@+id/txtpassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Password"
         android:inputType="textPassword"
-        android:layout_margin="10dp"/>
+        android:layout_margin="30dp"
+        android:textSize="22dp"
+        android:textColor="#ffff"
+        android:textAlignment="center"
+        />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/btnlogin"
         android:text="Login"
-        android:layout_margin="10dp"/>
+        android:layout_margin="35dp"
+        />
     <TextView
 
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Not a User? Swipe Right"
-        android:layout_margin="20dp"/>
+        android:hint="Register if New User ! ! ! "
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:layout_margin="25dp"/>
 
 
 
